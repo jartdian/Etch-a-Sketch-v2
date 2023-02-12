@@ -12,11 +12,14 @@
     <h1 class="title">Etch a Sketch PlayGround</h1>
 
     <div class="modifyCells">
-      <input class="cellAmountInput" default="16" type="number" max="100" />
-      <button class="createButton">Number of Cells</button>
+      <div class="cellAmount">
+        
+        <input class="cellAmountInput" value="4" type="number" min="4" max="100" />
+        <button class="createButton"><p>Add Cells</p></button>
+      </div>
       <div class="colorPicker">
-        <h5>Pick a color</h5>
         <input type="color" class="colorPickerInput" />
+        <p class="colorPickerText">Change Color</h5>
       </div>
     </div>
     <main>
